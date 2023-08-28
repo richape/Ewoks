@@ -1,9 +1,9 @@
-import { getTodos, close } from './db.js'
+import { getEwoks, close } from './db.js'
 
 export async function list() {
   try {
-    const todos = await getTodos()
-    printTodos(todos)
+    const ewoks = await getEwoks()
+    printEwoks(ewoks)
   } catch (err) {
     logError(err)
   } finally {
@@ -11,9 +11,9 @@ export async function list() {
   }
 }
 
-function printTodos(todos) {
-  todos.forEach((todo) => {
-    console.info(`${todo.id}: ${todo.task}`)
+function printEwoks(ewoks) {
+  ewoks.forEach((ewoks) => {
+    console.info(`${ewoks.id}: ${ewoks.name}`)
   })
 }
 
