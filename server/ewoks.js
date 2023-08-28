@@ -1,5 +1,5 @@
 #!/usr/bin/env node
-import * as commands from './commands.js'
+import * as commands from '../commands.js'
 
 const userInputs = process.argv
 const cmd = userInputs[2]
