@@ -5,7 +5,7 @@
   "description": "Command-line todo app using Knex.",
   "main": "commands.js",
   "bin": {
-    "todo": "./todo.js"
+    "ewoks": "./server/ewoks.js"
   },
   "scripts": {
     "lint": "eslint --ext .js,.jsx,.ts,.tsx .",
