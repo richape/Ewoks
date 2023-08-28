@@ -8,8 +8,10 @@
     "ewoks": "./server/ewoks.js"
   },
   "scripts": {
+    "start": "node server/index",
+    "dev": "nodemon server/index",
     "lint": "eslint --ext .js,.jsx,.ts,.tsx .",
-    "knex": "knex",
+    "knex": "knex --knexfile ./server/knexfile.js",
     "test": "vitest",
     "format": "prettier -w '**/*.{js,jsx,ts,tsx}'"
   },
