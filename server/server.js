@@ -2,7 +2,6 @@ import * as Path from 'node:path/posix'
 import * as URL from 'node:url'
 import express from 'express'
 import hbs from 'express-handlebars'
-
 import routes from './routes.js'
 
 const server = express()
