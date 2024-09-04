@@ -4,3 +4,9 @@ h1 {
   color: yellow;
   text-align: center;
 }
+
+img {
+  display: block;
+  margin: auto;
+  width: 100%;
+}
